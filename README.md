@@ -1,1 +1,1 @@
-##squirrel doesn't allow local paths for icon urls.
+## squirrel doesn't allow local paths for icon urls.
