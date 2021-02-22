@@ -3,11 +3,11 @@ import { createReadStream, statSync } from "fs";
 import fetchAsset from "vercel-assets";
 
 export default async (req, res) => {
-	const filePath = fetchAsset("images", "suyoinker.ico");
+	const filePath = fetchAsset("images", "suyoinker.png");
 	const stat = statSync(filePath);
 
 	res.writeHead(200, {
-		"Content-Type": "image/vnd.microsoft.icon",
+		"Content-Type": "image/png",
 		"Content-Length": stat.size,
 	});
 
