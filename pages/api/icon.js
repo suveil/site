@@ -1,9 +1,9 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import { createReadStream, statSync } from "fs";
-import { join } from "path";
+import fetchAsset from "vercel-assets";
 
 export default async (req, res) => {
-	const filePath = join(process.cwd(), "public/suyoinker.ico");
+	const filePath = fetchAsset("images", "suyoinker.ico");
 	const stat = statSync(filePath);
 
 	res.writeHead(200, {

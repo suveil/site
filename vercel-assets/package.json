@@ -1,0 +1,16 @@
+{
+	"name": "vercel-assets",
+	"version": "1.0.6",
+	"description": "a trick to fetch assets for vercel api routes",
+	"license": "MIT",
+	"homepage": "https://suveil.vercel.app",
+	"main": "index.js",
+	"files": [
+		"*"
+	],
+	"keywords": [
+		"vercel",
+		"zeit",
+		"nextjs"
+	]
+}
