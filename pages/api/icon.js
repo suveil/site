@@ -7,7 +7,7 @@ export default async (req, res) => {
 	const stat = statSync(filePath);
 
 	res.writeHead(200, {
-		"Content-Type": "image/x-icon",
+		"Content-Type": "image/vnd.microsoft.icon",
 		"Content-Length": stat.size,
 	});
 
