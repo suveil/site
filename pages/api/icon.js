@@ -1,4 +1,3 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import { createReadStream, statSync } from "fs";
 import fetchAsset from "vercel-assets";
 
